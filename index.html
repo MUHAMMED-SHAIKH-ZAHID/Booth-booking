@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Machine Test Booth Booking </title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Cairo:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Expo Logo" />
+        </div>
+        <div class="title">Expo 2025 Booth Booking</div>
+    </nav>
+
+    <main class="container">
+        <section id="booking-section">
+            <h3>Booth Reservation</h3>
+                        <img class="chairs" src="assets/images/sitting.png" alt="Expo Logo" />
+            <div class="entrance">⬆ Entrance ⬇</div>
+            <div id="booth-grid" aria-label="Booth selection grid"></div>
+            <div class="entranceTwo">⬆ Entrance ⬇</div>
+            <div class="entranceThree">⬆ Exit ⬇</div>
+            <div class="empty"></div>
+        </section>
+
+        <aside id="info-panel">
+        <section id="cart" aria-label="Booking cart" class="cart-container">
+            <h3>Your Cart</h3>
+            <ul id="cart-list" class="cart-list"></ul>
+            <div id="empty-cart" class="empty-cart">No booths Selected </div>
+            <div id="cart-total" class="cart-total">Total: 0 KWD</div>
+        </section>
+
+            <section id="chart-section">
+                <div id="premium-chart" aria-label="Premium booths booking chart">
+                    <p style="text-align:center; font-style: italic; color:#888;">Chart coming soon</p>
+                </div>
+            </section>
+
+            <section id="chart" aria-label="Booth chart">
+                <h3>Booth Category</h3>
+                <div><span class="chart-color standard"></span> Standard</div>
+                <div><span class="chart-color prime"></span> Prime</div>
+                <div><span class="chart-color sponsor"></span> Sponsor</div>
+                <div><span class="chart-color booked-color"></span> Booked / Unavailable</div>
+                <div><span class="chart-color selected-color"></span> Selected</div>
+            </section>
+        </aside>
+    </main>
+
+    <script src="js/app.js" defer></script>
+</body>
+
+</html>
