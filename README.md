@@ -8,6 +8,7 @@ Booth categories: standard, prime, sponsor with visual distinction
 Supports big (160x160) and small (90x90) booths with manual gap spaces
 Booking cart with live price and selection updates
 Select/deselect booths with a clear cart summary
+A section for the selected sponsor count
 Responsive and accessible design
 
 🛠️ Tech Stack
